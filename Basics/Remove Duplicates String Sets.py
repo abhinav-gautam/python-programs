@@ -1,0 +1,13 @@
+s1=input()
+s2=input()
+a=set(s1)
+b=set(s2)
+print("Duplicate elements")
+c=",".join(a&b)
+print(c)
+for i in c:
+    s1=s1.replace(i,"")
+    s2=s2.replace(i,"")
+print("Unique elements")
+print (s1)
+print (s2)

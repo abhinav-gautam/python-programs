@@ -1,0 +1,6 @@
+a=int(input("Enter x1"))
+b=int(input("Enter x2"))
+c=int(input("Enter y1"))
+d=int(input("Enter y2"))
+print ("The distance between the to points are",((b-a)**2+(d-c)**2)**(1/2))
+print ("Developed by Abhinav Kumar Gautam")
